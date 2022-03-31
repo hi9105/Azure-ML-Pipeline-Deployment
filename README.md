@@ -20,7 +20,14 @@ The following diagram is an image that helps visualize the flow of operations fr
 ![Info](screenshot/Info.JPG)
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+
+### Step 1: Authentication
+
+In this step, we will install the Azure Machine Learning Extension which allows you to interact with Azure Machine Learning Studio, part of the az command. After having the Azure machine Learning Extension, we will create a Service Principal account and associate it with our specific workspace.
+
+### Step 2: Automated ML Experiment
+
+
 
 ## Screen Recording
 Link to a screen recording of the project in action : https://youtu.be/3Yh48B21VeI
