@@ -113,10 +113,6 @@ Screenshot : Pipeline consume
 
 ![Pipeline_Submitted_Run](screenshot/Pipeline_Submitted_Run.JPG)
 
-Screenshot : Published Pipeline overview
-
-![Pipeline_Endpoint](screenshot/Pipeline_Endpoint.JPG)
-
 Screenshot : All experiments
 
 ![All_Experiments](screenshot/All_Experiments.JPG)
@@ -141,4 +137,9 @@ The screencast demonstrate:
 - Successful API requests to the endpoint with a JSON payload
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+The following provide information about suggestions :
+
+- Benchmark the endpoint using Apache bench, to load-test model.
+- Batch Inference Pipelines : run in parallel.
+- Recurring Scheduled Pipelines : to schedule a pipeline.
