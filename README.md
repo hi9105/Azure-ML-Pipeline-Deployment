@@ -125,6 +125,10 @@ Screenshot : Experiments completed
 
 ![Experiments_Completed](screenshot/Experiments_Completed.JPG)
 
+Screenshot : Pipeline experiments completed
+
+![Pipeline_Experiment](screenshot/Pipeline_Experiment.JPG)
+
 ## Screen Recording
 
 Link to a screen recording of the project in action : https://youtu.be/3Yh48B21VeI
