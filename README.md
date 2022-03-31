@@ -16,6 +16,7 @@ In this project, we will following the below steps:
 
 ## Architectural Diagram
 The following diagram is an image that helps visualize the flow of operations from start to finish. An architectual diagram of the project :
+
 ![Info](screenshot/Info.JPG)
 
 ## Key Steps
