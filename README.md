@@ -23,7 +23,14 @@ The following diagram is an image that helps visualize the flow of operations fr
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+Link to a screen recording of the project in action : https://youtu.be/3Yh48B21VeI
+
+The screencast demonstrate:
+
+- Working deployed ML model endpoint
+- Deployed Pipeline
+- Available AutoML Model
+- Successful API requests to the endpoint with a JSON payload
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
