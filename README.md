@@ -45,7 +45,7 @@ In following image, we can see that the experiment used for AutoML is shown as c
 
 After the experiment run completes, a summary of all the models and their metrics are shown, including explanations. The Best Model will be shown in the Details tab. In the Models tab, it will come up first (at the top). Select the best model for deployment. Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.
 
-In following image, we can see thatt : AutoML Best model
+In following image, we can see the best model after the experiment completes.
 
 ![Best_model](screenshot/Best_model.JPG)
 
@@ -53,11 +53,11 @@ In following image, we can see thatt : AutoML Best model
 
 We choose the best model for deployment and enable "Authentication" while deploying the model using Azure Container Instance (ACI). The executed code in logs.py enables Application Insights. "Application Insights enabled" is disabled before executing logs.py. Although this is configurable at deploy time with a check-box, it is useful to be able to run code that will enable it.
 
-In following image, we can see that : Application insights
+In following image, we can see that "Application Insights" is enabled in the Details tab of the endpoint.
 
 ![Application_Insights](screenshot/Application_Insights.JPG)
 
-In following image, we can see that : Logs
+In following image, we can see the logs.
 
 ![logs](screenshot/logs.JPG)
 
@@ -65,15 +65,15 @@ In following image, we can see that : Logs
 
 In this step, we will consume the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models. Head to the Endpoints section, and find deployed model there, it should be the first one on the list.
 
-In following image, we can see that : Swagger documentation
+In following image, we can see that swagger runs on localhost showing the HTTP API methods for the model.
 
 ![swagger_documentation](screenshot/swagger_documentation.JPG)
 
-In following image, we can see that : Swagger get responses
+In following image, we can see the swagger HTTP Get API method and response for the model.
 
 ![swagger_get_responses](screenshot/swagger_get_responses.JPG)
 
-In following image, we can see that : Swagger post responses
+In following image, we can see the swagger HTTP Post API method and response for the model.
 
 ![swagger_post_responses](screenshot/swagger_post_responses.JPG)
 
