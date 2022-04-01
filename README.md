@@ -81,7 +81,7 @@ In following image, we can see the swagger HTTP Post API method and response for
 
 Once the model is deployed, use the endpoint.py script to interact with the trained model. In this step, we need to run the script, modifying both the scoring_uri and the key to match the key for service and the URI that was generated after deployment. This URI can be found in the Details tab, above the Swagger URI.
 
-In following image, we can see that : Endpoint output
+In following image, we can see that the "endpoint.py" script runs against the API producing JSON output from the model.
 
 ![endpoint_output](screenshot/endpoint_output.JPG)
 
@@ -89,39 +89,39 @@ In following image, we can see that : Endpoint output
 
 For this part of the project, we will use the Jupyter Notebook. We must make sure to update the notebook to have the same keys, URI, dataset, cluster, and model names already created.
 
-In following image, we can see that : Pipeline runs
+In following image, we can see that the all pipeline runs has been completed in the pipeline section of Azure ML studio. 
 
 ![Pipeline_Runs](screenshot/Pipeline_Runs.JPG)
 
-In following image, we can see that : Pipeline run overview
+In following image, we can see the pipeline run overview in the pipeline section of Azure ML studio. The status has been completed. A graph view is also displayed.
 
 ![Pipeline_Completed](screenshot/Pipeline_Completed.JPG)
 
-In following image, we can see that : Pipeline endpoint
+In following image, we can see the Pipeline endpoints in the pipelines section of Azure ML Studio.
 
 ![Pipeline_Endpoint1](screenshot/Pipeline_Endpoint1.JPG)
 
-In following image, we can see that : Pipeline run details
+In following image, we can see that the “Use RunDetails Widget” shows the step runs in Jupyter Notebook. 
 
 ![Pipeline_Consume_RunDetails](screenshot/Pipeline_Consume_RunDetails.JPG)
 
-In following image, we can see that : Published Pipeline overview
+In following image, we can see the “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE.
 
 ![Pipeline_Endpoint](screenshot/Pipeline_Endpoint.JPG)
 
-In following image, we can see that : Pipeline consume
+In following image, we can see that for consuming pipeline, request has been send and run has been submitted to the pipeline in Jupyter Notebook.
 
 ![Pipeline_Submitted_Run](screenshot/Pipeline_Submitted_Run.JPG)
 
-In following image, we can see that : All experiments
+In following image, we can see a list of all Experiments with their run types in the experiment section of Azure ML studio.
 
 ![All_Experiments](screenshot/All_Experiments.JPG)
 
-In following image, we can see that : Experiments completed
+In following image, we can see the details of our experiment "automl-pipeline-classification" with all runs and their run type in the experiment section of Azure ML studio. We have two different run type : Automated ML and Pipeline. 
 
 ![Experiments_Completed](screenshot/Experiments_Completed.JPG)
 
-In following image, we can see that : Pipeline experiments completed
+In following image, we can see the details of our experiment "pipeline-rest-endpoint" with all runs and their run type in the experiment section of Azure ML studio. We have just one run type : Pipeline.
 
 ![Pipeline_Experiment](screenshot/Pipeline_Experiment.JPG)
 
